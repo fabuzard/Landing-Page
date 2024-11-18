@@ -4,7 +4,8 @@ module.exports = {
     extend: {
       colors:{
         'grey-background':'#2B2B2B',
-        'image-background':"#333333"
+        'image-background':"#333333",
+        'purple-background':"#BFAFF2"
       },
       fontFamily:{
         logo: ['Poppins', 'sans-serif'],
