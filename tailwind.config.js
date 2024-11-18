@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors:{
         'grey-background':'#2B2B2B',
+        'image-background':"#333333"
       },
       fontFamily:{
         logo: ['Poppins', 'sans-serif'],
@@ -12,7 +13,9 @@ module.exports = {
     },
     fontSize: {
       'logo-size': '24px', // Example custom size
-      'auth-size': '18px'
+      'auth-size': '18px',
+      'Headline': '60px',
+
     },
   },
   plugins: [],

@@ -9,15 +9,44 @@
   <body class="bg-grey-background py-6 px-4 text-white">
     <header class="top-bar mx-auto flex justify-between items-center">
       <div class="logo font-logo font-semibold text-logo-size">Wallet</div>
-      <div class="auth-links flex items-center space-x-4 font-logo text-auth-size ">
-        <ul class="cursor-pointer">Sign Up</ul>
-        <ul class="login-button bg-violet-500 hover:bg-violet-700 text-white py-2 px-20 rounded-2xl cursor-pointer">Login</ul>
+      <div
+        class="auth-links flex items-center space-x-4 font-logo text-auth-size"
+      >
+        <a class="cursor-pointer">Sign Up</a>
+        <a
+          class="login-button bg-violet-500 hover:bg-violet-700 text-white py-2 px-20 rounded-2xl cursor-pointer"
+          >Login</a
+        >
       </div>
     </header>
 
-    <section class="main-content">
-      <div class="left-side"></div>
-      <div class="right-side"></div>
+    <section class="main-content flex items-center justify-between px-8 py-16">
+      <!-- Left Side -->
+      <div class="max-w-[461px] ">
+        <h1 class="text-4xl font-bold font-logo text-Headline mb-4">
+          SaaS Landing Page Template
+        </h1>
+        <p class="text-lg text-gray-300 max-w-sm font-logo font-extralight mb-8">
+          This is a template Figma file, turned into code using Anima. Learn
+          more at AnimaApp.com
+        </p>
+        <button
+          class="bg-yellow-500 hover:bg-yellow-600 text-black font-medium py-3 px-6 rounded-lg shadow-lg"
+        >
+          Get started
+        </button>
+      </div>
+
+      <!-- Right Side -->
+      <div class="right-side w-auto bg-image-background p-2 rounded-lg  ">
+        <!-- Example placeholder content -->
+        <img
+          src="./resources/Image.png"
+          alt="Product Screenshot"
+          class="mx-auto rounded-lg "
+        />
+      </div>
+      
     </section>
 
     <section class="partners"></section>
